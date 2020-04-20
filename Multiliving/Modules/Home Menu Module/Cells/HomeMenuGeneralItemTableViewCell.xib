@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="HomeMenuGeneralItemTableViewCell" customModule="Multiliving" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pankaj Teckchandani" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKr-FZ-bZ3">
+                        <rect key="frame" x="8" y="24" width="280" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="next" translatesAutoresizingMaskIntoConstraints="NO" id="Pia-Qo-rpk">
+                        <rect key="frame" x="284" y="22" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="ADJ-At-2Yv"/>
+                            <constraint firstAttribute="height" constant="24" id="BgW-h9-QgV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vwp-fN-R0Y">
+                        <rect key="frame" x="12" y="43.5" width="296" height="0.5"/>
+                        <color key="backgroundColor" red="0.36825871469999999" green="0.48866295809999999" blue="0.58865141870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="VxD-ni-Q5G"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="nKr-FZ-bZ3" secondAttribute="trailing" constant="32" id="7zq-0m-0sT"/>
+                    <constraint firstAttribute="bottom" secondItem="Vwp-fN-R0Y" secondAttribute="bottom" id="J4J-S6-u2x"/>
+                    <constraint firstAttribute="trailing" secondItem="Pia-Qo-rpk" secondAttribute="trailing" constant="12" id="Nng-1o-mmq"/>
+                    <constraint firstItem="nKr-FZ-bZ3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="PCU-GR-EJp"/>
+                    <constraint firstItem="Vwp-fN-R0Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="RpG-OU-sUX"/>
+                    <constraint firstAttribute="bottom" secondItem="nKr-FZ-bZ3" secondAttribute="bottom" constant="24" id="UOZ-wW-tDX"/>
+                    <constraint firstItem="Pia-Qo-rpk" firstAttribute="centerY" secondItem="nKr-FZ-bZ3" secondAttribute="centerY" id="dvQ-dU-jJq"/>
+                    <constraint firstAttribute="trailing" secondItem="Vwp-fN-R0Y" secondAttribute="trailing" constant="12" id="umx-Wk-AhJ"/>
+                    <constraint firstItem="nKr-FZ-bZ3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="xVC-fD-Uep"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelForTitle" destination="nKr-FZ-bZ3" id="jew-iZ-ckw"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="109"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="next" width="512" height="512"/>
+    </resources>
+</document>

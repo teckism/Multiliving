@@ -1,0 +1,6 @@
+framework module Pods_Multiliving {
+  umbrella header "Pods-Multiliving-umbrella.h"
+
+  export *
+  module * { export * }
+}

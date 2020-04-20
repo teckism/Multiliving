@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (6.5.5)
+  - MaryPopin (1.4.3)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - MaryPopin
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
+    - MaryPopin
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  MaryPopin: ef1f32f744078ac2761140ab7c60cb82554c7e2a
+
+PODFILE CHECKSUM: 5e4ef965895f15e737df519ec7b9a8315dade868
+
+COCOAPODS: 1.9.1

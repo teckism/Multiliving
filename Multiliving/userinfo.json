@@ -1,0 +1,10 @@
+{
+    "user": {
+        "first_name" : "Pankaj",
+        "last_name" : "Teckchandani",
+        "dob" : "31/08/1992",
+        "email" : "pankaj.teckchandani@gmail.com",
+        "phone_number" : "7021930050",
+        "about_me" : "iOS Developer here"
+    }
+}
